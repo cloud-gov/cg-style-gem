@@ -1206,9 +1206,11 @@ select {
   -webkit-appearance: none;
   appearance: none;
   background-color: #ffffff;
-  background-image: url(../img/sprite.png);
-  background-position: -1195px -375px;
-  background-image: url("../img/arrow-down.svg"); }
+  background-image: url("../img/arrow-down.png");
+  background-image: url("../img/arrow-down.svg");
+  background-position: right 1.3rem center;
+  background-repeat: no-repeat;
+  background-size: 1.3rem; }
 
 legend {
   font-size: 3rem;
@@ -1277,9 +1279,10 @@ input[type="radio"]:focus + label::before {
   box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #277CB2, 0 0 3px 4px #3498DB, 0 0 7px 4px #3498DB; }
 
 input[type="checkbox"]:checked + label::before {
-  background-image: url(../img/sprite.png);
-  background-position: -1255px -375px;
-  background-image: url("../img/correct8.svg"); }
+  background-image: url("../img/correct8.png");
+  background-image: url("../img/correct8.svg");
+  background-position: 50%;
+  background-repeat: no-repeat; }
 
 input[type="checkbox"]:focus + label::before {
   box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #277CB2; }
@@ -1641,16 +1644,19 @@ p a,
 
 .usa-accordion button[aria-expanded=false],
 .usa-accordion-bordered button[aria-expanded=false] {
-  background-image: url(../img/sprite.png);
-  background-position: -1169px -375px;
-  background-image: url("../img/plus.svg"); }
+  background-image: url("../img/plus.png");
+  background-image: url("../img/plus.svg");
+  background-repeat: no-repeat;
+  background-size: 1.3rem; }
 
 .usa-accordion button,
 .usa-accordion-bordered button {
   background-color: #f1f1f1;
-  background-image: url(../img/sprite.png);
-  background-position: -1117px -375px;
+  background-image: url("../img/minus.png");
   background-image: url("../img/minus.svg");
+  background-position: right 3rem center;
+  background-repeat: no-repeat;
+  background-size: 13px;
   color: #595959;
   cursor: pointer;
   display: inline-block;
@@ -1729,26 +1735,22 @@ p a,
 
 .usa-alert-success {
   background-color: #e7f4e4;
-  background-image: url(../img/sprite.png);
-  background-position: -298px -518px;
+  background-image: url("../img/alerts/success.png");
   background-image: url("../img/alerts/success.svg"); }
 
 .usa-alert-warning {
   background-color: #fff1d2;
-  background-image: url(../img/sprite.png);
-  background-position: -506px 0px;
+  background-image: url("../img/alerts/warning.png");
   background-image: url("../img/alerts/warning.svg"); }
 
 .usa-alert-error {
   background-color: white;
-  background-image: url(../img/sprite.png);
-  background-position: 0px -518px;
+  background-image: url("../img/alerts/error.png");
   background-image: url("../img/alerts/error.svg"); }
 
 .usa-alert-info {
   background-color: white;
-  background-image: url(../img/sprite.png);
-  background-position: -596px -518px;
+  background-image: url("../img/alerts/info.png");
   background-image: url("../img/alerts/info.svg"); }
 
 .usa-alert-no_icon {
@@ -1928,9 +1930,11 @@ li.usa-footer-primary-content {
   .usa-footer-big ul li {
     line-height: 2em; }
   .usa-footer-big ul .usa-footer-primary-link {
-    background-image: url(../img/sprite.png);
-    background-position: -1195px -375px;
+    background-image: url("../img/arrow-down.png");
     background-image: url("../img/arrow-down.svg");
+    background-position: 1.5rem center;
+    background-repeat: no-repeat;
+    background-size: 1.3rem;
     padding-left: 3.5rem; }
     @media screen and (min-width: 600px) {
       .usa-footer-big ul .usa-footer-primary-link {
@@ -1940,8 +1944,7 @@ li.usa-footer-primary-content {
   .usa-footer-big ul.hidden {
     padding-bottom: 0; }
     .usa-footer-big ul.hidden .usa-footer-primary-link {
-      background-image: url(../img/sprite.png);
-      background-position: -1143px -375px;
+      background-image: url("../img/arrow-right.png");
       background-image: url("../img/arrow-right.svg");
       cursor: pointer;
       margin: 0; }
@@ -2107,9 +2110,11 @@ fieldset {
       width: 1.8em; }
 
 .usa-checklist-checked:before {
-  background-image: url(../img/sprite.png);
-  background-position: -1221px -375px;
-  background-image: url("../img/correct9.svg"); }
+  background-image: url("../img/correct9.png");
+  background-image: url("../img/correct9.svg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%; }
 
 .usa-search {
   max-width: none;
@@ -2138,9 +2143,10 @@ fieldset {
         width: calc(100% - 8.5rem); } }
   .usa-search [type="submit"],
   .usa-search .usa-search-submit {
-    background-image: url(../img/sprite.png);
-    background-position: -1239px -375px;
+    background-image: url("../img/search.png");
     background-image: url("../img/search.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
     height: 3.3rem;
@@ -2173,9 +2179,10 @@ fieldset {
       width: calc(100% - 4.5rem); }
     .usa-search.usa-search-small [type="submit"],
     .usa-search.usa-search-small .usa-search-submit {
-      background-image: url(../img/sprite.png);
-      background-position: -1239px -375px;
+      background-image: url("../img/search.png");
       background-image: url("../img/search.svg");
+      background-position: 50%;
+      background-repeat: no-repeat;
       width: 4.5rem; } }
 
 .usa-sidenav-list {
@@ -2260,8 +2267,7 @@ main {
   position: relative; }
 
 main:before {
-  background-image: url(../img/sprite.png);
-  background-position: -1117px 0px;
+  background: url("../img/cg-bg-a.png") no-repeat 0 0;
   content: '';
   height: 19.3rem;
   right: 100%;
@@ -2928,8 +2934,7 @@ blockquote {
 .section-bg {
   background-color: transparent; }
   .section-bg:before {
-    background-image: url(../img/sprite.png);
-    background-position: 0px 0px;
+    background: url("../img/cg-bg-b.png") no-repeat 0 0;
     content: '';
     height: 44.3rem;
     left: -23rem;
@@ -2942,8 +2947,7 @@ blockquote {
         left: -12rem; } }
 
 .section-bg-far-r {
-  background-image: url(../img/sprite.png);
-  background-position: -854px 0px; }
+  background: url("../img/cg-bg-c.png") no-repeat 278% 5vh; }
   @media screen and (min-width: 600px) {
     .section-bg-far-r {
       background-position-x: 108%; } }
