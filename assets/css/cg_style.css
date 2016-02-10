@@ -3025,9 +3025,10 @@ blockquote {
   z-index: 1; }
 
 .title_bar {
+  background-color: #1F2C38;
   margin: 0 auto;
-  padding: 0 .5rem 0 0;
-  max-width: 1040px; }
+  max-width: 1040px;
+  padding: 0 .5rem 0 0; }
   .title_bar > * {
     display: inline-block;
     margin-left: 1em; }
