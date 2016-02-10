@@ -1815,15 +1815,6 @@ p a,
       padding-left: 2.5rem;
       padding-right: 2.5rem; } }
 
-@media screen and (min-width: min-width 600px 6) {
-  .width-one-sixth {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 14.70196%; }
-    .width-one-sixth:last-child {
-      margin-right: 0; } }
-
 .usa-footer-medium .usa-footer-primary-section {
   padding: 0; }
   @media screen and (min-width: 600px) {
@@ -2582,6 +2573,10 @@ blockquote {
 .section-content + .four_up {
   margin-top: 3rem; }
 
+.logo {
+  height: 41px;
+  width: 234px; }
+
 .header {
   background: #ffffff;
   min-height: 6.875rem; }
@@ -2707,6 +2702,7 @@ blockquote {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2732,11 +2728,23 @@ blockquote {
 .icon-container {
   height: 3.125rem;
   width: 3.9rem; }
+  .icon-container .icon {
+    max-height: 3.1rem;
+    max-width: none; }
 
 .icon {
-  max-height: 3.1rem; }
+  display: inline-block;
+  height: 100%;
+  fill: transparent;
+  max-height: 2rem;
+  max-width: 2rem;
+  stroke: currentColor;
+  position: relative;
+  top: -0.0625em;
+  vertical-align: middle;
+  width: 100%; }
 
-.icon-alt .cls-1 {
+.icon-alt {
   stroke: #F3736E; }
 
 .content {
