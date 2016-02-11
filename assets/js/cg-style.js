@@ -11,8 +11,6 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 },{}],2:[function(require,module,exports){
 
-//require('uswds');
-
 require('./analytics.js');
 
 },{"./analytics.js":1}]},{},[2]);
