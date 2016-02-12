@@ -1,0 +1,19 @@
+sudo: false
+language: ruby
+rvm:
+  - 2.2.0
+  - 2.1.0
+  - 2.0.0
+  - 1.9.3
+  - 1.9.2
+install:
+  - bundle install --jobs=3 --retry=3
+script:
+  - echo "no tests"
+deploy:
+  provider: rubygems
+  api_key:
+    secure: JTMjuA6jp/yKyIBh5A2P4ccPGp9AU6xSgnrRZaWRt64FxZ1aGhDnUEKW6B9ffrYpECDlps+nnNNxO2BIFh4Os7pp4JMpo7IxEWvNVxAz2EGRvBBY2NpZxGk33enzuJC2h4zwVjNaTwOIIKwl/2yT1aWm3ragqHvYxjlJ+aDDUU0lwyPkz9yi5GSh1MCyR/hRjcO2Ds8Jx5xtG9DCpMTy+Qc/i7R697S7oiCnce6+uQFKy+c+WgNohc4e/e7d5BHGXE4it0om30741yRPHfJexOHVt971B0raSnJcP2YJfWEOKTqFZVTIPEnW6fuD3LR7HiUuXL1keIrItBrCqUWrkA/6h55A+gLig7yTQ1hMeqg90Pll0w4eQjgXed0dTbPd+dLbRzK/aoeAUzwrB56B2dl8c8CRv+hCawJYjFYvvbCJLydtPAvVWbLz18SMg8hGY846uwvBnWp+PrS+iTxd6pXrcyJlq8dDrCc5yr6S6B0jJTt8TT4k7gg7YGavGMsAV1g4tlxsQE83rtAZNsIxMGWHYfIdaEjTPdemM80r2ooxL3GY7mowIj45U0Yb0YCrUtkYPV8KYrXCH26xYR4CcLWK5xx14YVLJX70RLt8cedwLEYcHxgZa7oTqsZ4zivZVNzXarI9d1wffrU3b8Dy322pHD5e6PF08RFzOW95SR8=
+  gem: cloudgov-style
+  on:
+    tags: true
