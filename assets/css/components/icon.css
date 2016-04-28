@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.icon-container {
+  height: 3.125rem;
+  width: 3.9rem; }
+  .icon-container .icon {
+    max-height: 3.1rem;
+    max-width: none; }
+
+.icon {
+  display: inline-block;
+  height: 100%;
+  fill: transparent;
+  max-height: 2rem;
+  max-width: 2rem;
+  stroke: currentColor;
+  position: relative;
+  top: -0.0625rem;
+  vertical-align: middle;
+  width: 100%; }
+
+.icon-alt {
+  stroke: #9bdaf1; }

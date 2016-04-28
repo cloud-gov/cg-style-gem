@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.header {
+  background: #ffffff;
+  min-height: 6.875rem; }
+
+.header-wrap {
+  margin: 0 auto;
+  max-width: 1040px;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1.875rem; }
+  .header-wrap::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.header-title {
+  float: left;
+  margin-bottom: .6rem; }
+
+.header-side {
+  float: left;
+  width: 60%; }
+  @media screen and (min-width: 600px) {
+    .header-side {
+      float: right; } }

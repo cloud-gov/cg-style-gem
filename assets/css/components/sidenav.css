@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.sidenav-parent {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1040px;
+  position: relative; }
+
+.sidenav {
+  align-self: stretch;
+  bottom: 0;
+  display: none;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  z-index: 1; }
+  @media screen and (min-width: 900px) {
+    .sidenav {
+      display: block;
+      position: static; } }
+  .sidenav.active {
+    display: block; }
+
+.sidenav-main {
+  align-self: auto;
+  flex-grow: 1;
+  padding: 0;
+  width: 100%; }
+  @media screen and (min-width: 900px) {
+    .sidenav-main {
+      width: calc(100% - 300px); }
+      .sidenav-main.active {
+        width: calc(100% - 300px); } }
+
+.sidenav-list {
+  width: 100%; }
+  .sidenav-list a {
+    color: #ffffff;
+    word-wrap: break-word; }
+  .sidenav-list li {
+    border-top: 0;
+    font-size: 0.9rem; }
+
+.sidenav-level-one {
+  background-color: #2c3e50; }
+
+.sidenav-level-two {
+  background-color: #1f2b38; }
+
+.sidenav-level-three {
+  background-color: #595959;
+  /* Removes weird margin in list for third level */
+  margin-bottom: 0;
+  margin-top: 0; }
+
+.sidenav-arrow {
+  border: 1px solid white;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  float: right;
+  height: .6em;
+  width: .6em; }
+
+.sidenav-arrow-right {
+  transform: rotate(-45deg); }
+
+.sidenav-arrow-down {
+  transform: rotate(45deg); }
+
+.sidenav-active {
+  background-color: #f1f1f1;
+  text-decoration: none; }
+  .sidenav-active a {
+    color: #0071bc; }
