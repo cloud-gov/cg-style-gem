@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.three_up::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.three_up-part {
+  margin-top: 4rem; }
+  @media screen and (min-width: 600px) {
+    .three_up-part {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      margin-top: 0; }
+      .three_up-part:last-child {
+        margin-right: 0; } }
+  .three_up-part .hex_icon {
+    margin: 0 auto 2rem auto; }
+  .three_up-part .icon-container {
+    margin-bottom: 1rem; }
+
+.section-content + .three_up {
+  margin-top: 3rem; }

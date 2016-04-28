@@ -1,0 +1,9 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.logo {
+  height: 41px;
+  width: 234px; }

@@ -1,0 +1,121 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.section {
+  padding-bottom: 12.5rem;
+  padding-top: 2.75rem; }
+
+.section-middle {
+  padding-bottom: 12.2rem;
+  padding-top: 1.5rem; }
+
+.section-content {
+  margin-top: 0; }
+  .section-content:last-child {
+    margin-right: auto; }
+  @media screen and (min-width: 600px) {
+    .section-content {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      float: none;
+      margin-left: auto;
+      margin-right: auto; }
+      .section-content:last-child {
+        margin-right: 0; }
+      .section-content:last-child {
+        margin-right: auto; } }
+
+.section-dark {
+  color: #ffffff;
+  position: relative; }
+  .section-dark a {
+    color: #02bfe7; }
+  .section-dark:before {
+    background-image: url("../img/chevron-top.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    display: block;
+    height: 4.865rem;
+    position: absolute;
+    top: -4.865rem;
+    width: 100%; }
+
+.section-bg-parent {
+  position: relative; }
+
+.section-bg {
+  background-color: transparent; }
+  .section-bg:before {
+    background: url("../img/cg-bg-b.png") no-repeat 0 0;
+    content: '';
+    height: 44.3rem;
+    left: -23rem;
+    position: absolute;
+    top: -160px;
+    width: 39.85rem;
+    z-index: -1; }
+    @media screen and (min-width: 600px) {
+      .section-bg:before {
+        left: -12rem; } }
+
+.section-bg-far-r {
+  background: url("../img/cg-bg-c.png") no-repeat 278% 5vh; }
+  @media screen and (min-width: 600px) {
+    .section-bg-far-r {
+      background-position-x: 108%; } }
+
+.section-light {
+  background: #ffffff;
+  position: relative; }
+  .section-light:before {
+    background-image: url("../img/chevron-bottom.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    display: block;
+    height: 4.865rem;
+    position: absolute;
+    top: -4.865rem;
+    width: 100%; }
+
+.section-chevron_alt.section-chevron_alt {
+  padding-bottom: 6.5rem; }
+  .section-chevron_alt.section-chevron_alt:not(.section-first) {
+    background-color: #112e51;
+    margin-top: -4.5rem;
+    padding-top: 4.865rem; }
+  .section-chevron_alt.section-chevron_alt:not(.section-first):before {
+    background-image: url("../img/chevron-top-inverse.svg");
+    top: -4.865rem; }
+  .section-chevron_alt.section-chevron_alt:after {
+    background-image: url("../img/chevron-bottom-inverse.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 0rem;
+    content: '';
+    display: block;
+    height: 4.865rem;
+    position: absolute;
+    width: 100%; }
+  .section-chevron_alt.section-chevron_alt + .section-middle {
+    padding-top: 4.5rem; }
+    .section-chevron_alt.section-chevron_alt + .section-middle:before {
+      display: none; }
+  .section-chevron_alt.section-chevron_alt .section-icon {
+    margin-top: 3.3rem; }
+
+.section-first:before {
+  display: none; }
+
+.section-icon {
+  left: 50%;
+  margin-left: -2.4375rem;
+  margin-top: 4.7rem;
+  position: absolute;
+  z-index: 1; }

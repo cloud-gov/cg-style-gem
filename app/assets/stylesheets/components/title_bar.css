@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.title_bar {
+  background-color: #1F2C38;
+  margin: 0 auto;
+  max-width: 1040px;
+  padding: 0 .5rem 0 0; }
+  .title_bar > * {
+    display: inline-block;
+    margin-left: 1em; }
+    .title_bar > *:first-child {
+      margin-left: 0; }
+
+.title_bar-title {
+  color: #ffffff;
+  font-size: 1rem; }
