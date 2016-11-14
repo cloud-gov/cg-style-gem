@@ -1,3 +1,3 @@
 module CloudgovStyle
-  VERSION = "1.4.2"
+  VERSION = "2.1.0"
 end
