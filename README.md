@@ -1,10 +1,7 @@
 # Cloudgov::Style
 
-Styling for cloud.gov products. Main repository at 
-[18F/cloud.gov](https://github.com/18F/cg-style)
-
-
-[![Build Status](https://travis-ci.org/18F/cg-style-gem.svg?branch=master)](https://travis-ci.org/18F/cg-style-gem)
+## DEPRECATED
+This is no longer maintained, please see [18F/cloud.gov](https://github.com/18F/cg-style).
 
 ## Installation
 
