@@ -1,7 +1,7 @@
 # Cloudgov::Style
 
 ## DEPRECATED
-This is no longer maintained, please see [18F/cloud.gov](https://github.com/18F/cg-style).
+This is no longer maintained, please see [18F/cg-style](https://github.com/18F/cg-style).
 
 ## Installation
 
