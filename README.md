@@ -27,4 +27,3 @@ Frontend assets should be available in the ruby asset pipeline.
 
 - Set the new version in `lib/cloudgov-style/version.rb`
 - Tag the repo with the same version and push the tag.
-- Travis CI will upload the release to RubyGems
